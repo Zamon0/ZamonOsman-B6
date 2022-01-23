@@ -27,7 +27,16 @@ public class Homework20Question16 {
 
 		String result = "";
 
-		result = strOne.concat(strTwo);
+		char lastChar = strOne.charAt(strOne.length() - 1);
+		char firstChar = strTwo.charAt(0);
+
+		if (lastChar == firstChar) {
+			result = strOne.concat(strTwo.substring(1));
+		} else {
+
+			result = strOne.concat(strTwo);
+
+		}
 
 		return result;
 	}
