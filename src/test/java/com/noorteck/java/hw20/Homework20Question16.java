@@ -38,7 +38,7 @@ public class Homework20Question16 {
 
 		}
 
-		return result;  
+		return result;      
 	}
 
 }
