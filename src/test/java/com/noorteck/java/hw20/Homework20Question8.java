@@ -25,7 +25,7 @@ public class Homework20Question8 {
 			result = strOne.charAt(indexNum);
 		}
 
-		return result;
+		return result;  
 
 	}
 
